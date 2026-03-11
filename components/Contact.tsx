@@ -8,13 +8,13 @@ export default function Contact() {
   return (
     <section id="contact" className="py-20 relative px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
-        <SectionHeading 
-          title="Get In Touch" 
+        <SectionHeading
+          title="Get In Touch"
           subtitle="Interested in collaborating or have a project in mind? Let's talk."
         />
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mt-12">
-          
+
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -34,17 +34,17 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-sm text-slate-400">Email Me At</p>
-                  <p className="text-lg font-medium text-slate-200">hello@fathurrizqi.dev</p>
+                  <p className="text-lg font-medium text-slate-200">fathurrizqis.djafar@gmail.com</p>
                 </div>
               </div>
-              
+
               <div className="flex items-center space-x-4">
                 <div className="w-12 h-12 bg-slate-800 rounded-full flex items-center justify-center text-primary">
                   <Phone size={24} />
                 </div>
                 <div>
                   <p className="text-sm text-slate-400">Call Me At</p>
-                  <p className="text-lg font-medium text-slate-200">+62 812 3456 7890</p>
+                  <p className="text-lg font-medium text-slate-200">+62 822 7831 6363</p>
                 </div>
               </div>
 
@@ -71,9 +71,9 @@ export default function Contact() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-slate-400 mb-2">Your Name</label>
-                  <input 
-                    type="text" 
-                    id="name" 
+                  <input
+                    type="text"
+                    id="name"
                     className="w-full bg-slate-900 border border-slate-700 rounded-lg px-4 py-3 text-slate-200 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-colors"
                     placeholder="John Doe"
                     required
@@ -81,9 +81,9 @@ export default function Contact() {
                 </div>
                 <div>
                   <label htmlFor="email" className="block text-sm font-medium text-slate-400 mb-2">Your Email</label>
-                  <input 
-                    type="email" 
-                    id="email" 
+                  <input
+                    type="email"
+                    id="email"
                     className="w-full bg-slate-900 border border-slate-700 rounded-lg px-4 py-3 text-slate-200 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-colors"
                     placeholder="john@example.com"
                     required
@@ -93,9 +93,9 @@ export default function Contact() {
 
               <div>
                 <label htmlFor="subject" className="block text-sm font-medium text-slate-400 mb-2">Subject</label>
-                <input 
-                  type="text" 
-                  id="subject" 
+                <input
+                  type="text"
+                  id="subject"
                   className="w-full bg-slate-900 border border-slate-700 rounded-lg px-4 py-3 text-slate-200 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-colors"
                   placeholder="Project Inquiry"
                   required
@@ -104,8 +104,8 @@ export default function Contact() {
 
               <div>
                 <label htmlFor="message" className="block text-sm font-medium text-slate-400 mb-2">Message</label>
-                <textarea 
-                  id="message" 
+                <textarea
+                  id="message"
                   rows={5}
                   className="w-full bg-slate-900 border border-slate-700 rounded-lg px-4 py-3 text-slate-200 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-colors resize-none"
                   placeholder="How can I help you?"
@@ -113,7 +113,7 @@ export default function Contact() {
                 ></textarea>
               </div>
 
-              <button 
+              <button
                 type="submit"
                 className="w-full bg-primary hover:bg-blue-600 text-white font-medium py-4 rounded-lg flex items-center justify-center transition-all shadow-lg shadow-blue-500/20 hover:shadow-blue-500/40"
               >

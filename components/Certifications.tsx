@@ -19,7 +19,7 @@ export default function Certifications() {
       icon: <CheckCircle2 className="text-cyan-500" size={24} />
     },
     {
-      title: "First Place - University Hackathon",
+      title: "Third Place - University Hackathon",
       issuer: "UIN Alauddin Makassar",
       date: "2023",
       icon: <Medal className="text-yellow-500" size={24} />
@@ -35,8 +35,8 @@ export default function Certifications() {
   return (
     <section id="certifications" className="py-20 relative bg-slate-900/30">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <SectionHeading 
-          title="Certifications & Awards" 
+        <SectionHeading
+          title="Certifications & Awards"
           subtitle="Continuous learning and recognition in technical fields."
         />
 
